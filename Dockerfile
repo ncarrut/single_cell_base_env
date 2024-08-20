@@ -8,3 +8,5 @@ RUN Rscript -e "\
         );"
 
 RUN Rscript -e "remotes::install_github('bnprks/BPCells/r')"
+
+RUN pip install leidenalg
